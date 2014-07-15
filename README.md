@@ -1,29 +1,19 @@
-# SuperRequire
-
-TODO: Write a gem description
+# super_require
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'super_require'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install super_require
+```
+gem install super_require
+```
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/super_require/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+```rb
+> require 'super_require'
+= true
+> super_require 'date'
+= true
+> super_require 'rails'
+Installing rails...
+= true
+```
